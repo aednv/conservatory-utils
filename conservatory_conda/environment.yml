@@ -1,0 +1,25 @@
+name: conservatory-env
+
+channels:
+  - conda-forge
+  - bioconda
+
+dependencies:
+  - perl-bioperl=1.7.8
+  - lastz
+  - multiz
+  - phast
+  - samtools
+  - blast
+  - bedops
+  - bedtools
+  - agat
+  - seqkit
+  - perl-list-moreutils
+  - perl-text-csv
+  - perl-data-dumper
+  - perl-getopt-long
+  - perl-string-diff
+  - perl-statistics-basic
+
+
