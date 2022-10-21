@@ -17,29 +17,30 @@ dependencies:
   - curl=7.85.0=h7bff187_0
   - entrez-direct=16.2=he881be0_1
   - expat=2.4.9=h27087fc_0
-  - gettext=0.19.8.1=h27087fc_1009
+  - gettext=0.21.1=h27087fc_0
   - htslib=1.16=h6bc39ce_0
   - keyutils=1.6.1=h166bdaf_0
   - krb5=1.19.3=h3790be6_0
   - lastz=1.04.15=hec16e2b_1
-  - ld_impl_linux-64=2.36.1=hea4e1c9_2
+  - ld_impl_linux-64=2.39=hc81fddc_0
   - libcurl=7.85.0=h7bff187_0
   - libdb=6.2.32=h9c3ff4c_0
   - libdeflate=1.13=h166bdaf_0
   - libedit=3.1.20191231=he28a2e2_2
   - libev=4.33=h516909a_1
   - libffi=3.4.2=h7f98852_5
-  - libgcc-ng=12.1.0=h8d9b700_16
-  - libgomp=12.1.0=h8d9b700_16
+  - libgcc-ng=12.2.0=h65d4601_18
+  - libgomp=12.2.0=h65d4601_18
   - libidn2=2.3.3=h166bdaf_0
   - libnghttp2=1.47.0=hdcd2b5c_1
   - libnsl=2.0.0=h7f98852_0
   - libsqlite=3.39.4=h753d276_0
   - libssh2=1.10.0=haa6b8db_3
-  - libstdcxx-ng=12.1.0=ha89aaad_16
+  - libstdcxx-ng=12.2.0=h46fd767_18
   - libunistring=0.9.10=h7f98852_0
-  - libzlib=1.2.12=h166bdaf_4
+  - libzlib=1.2.13=h166bdaf_4
   - multiz=11.2=hec16e2b_3
+  - muscle=5.1=h9f5acd7_1
   - ncurses=6.3=h27087fc_1
   - openssl=1.1.1q=h166bdaf_0
   - paml=4.9=hec16e2b_7
@@ -50,7 +51,7 @@ dependencies:
   - perl-app-cpanminus=1.7046=pl5321hd8ed1ab_0
   - perl-archive-tar=2.40=pl5321hdfd78af_0
   - perl-autoloader=5.74=pl5321hdfd78af_3
-  - perl-base=2.23=pl5321hdfd78af_2
+  - perl-base=2.23=pl5321hd8ed1ab_0
   - perl-bio-asn1-entrezgene=1.73=pl5321hdfd78af_3
   - perl-bio-coordinate=1.007001=pl5321hdfd78af_3
   - perl-bio-featureio=1.6.905=pl5321hdfd78af_4
@@ -62,7 +63,7 @@ dependencies:
   - perl-bioperl=1.7.8=hdfd78af_1
   - perl-bioperl-core=1.7.8=pl5321hdfd78af_1
   - perl-bioperl-run=1.007003=pl5321hdfd78af_0
-  - perl-business-isbn=3.007=pl5321hdfd78af_0
+  - perl-business-isbn=3.007=pl5321hd8ed1ab_0
   - perl-business-isbn-data=20210112.006=pl5321hd8ed1ab_0
   - perl-capture-tiny=0.48=pl5321ha770c72_1
   - perl-carp=1.50=pl5321hd8ed1ab_0
@@ -103,7 +104,7 @@ dependencies:
   - perl-getopt-long=2.52=pl5321hdfd78af_0
   - perl-graph=0.9725=pl5321hdfd78af_0
   - perl-heap=0.80=pl5321hdfd78af_1
-  - perl-html-parser=3.78=pl5321h9f5acd7_0
+  - perl-html-parser=3.79=pl5321h9f5acd7_0
   - perl-html-tagset=3.20=pl5321hdfd78af_4
   - perl-http-cookies=6.10=pl5321hdfd78af_0
   - perl-http-daemon=6.14=pl5321hdfd78af_0
@@ -117,7 +118,7 @@ dependencies:
   - perl-io-tty=1.16=pl5321h166bdaf_0
   - perl-io-zlib=1.11=pl5321hdfd78af_0
   - perl-ipc-run=20200505.0=pl5321hdfd78af_0
-  - perl-json=4.09=pl5321hdfd78af_0
+  - perl-json=4.10=pl5321hdfd78af_0
   - perl-json-xs=2.34=pl5321h9f5acd7_5
   - perl-libwww-perl=6.39=pl5321hdfd78af_1
   - perl-libxml-perl=0.08=pl5321hdfd78af_3
@@ -154,8 +155,8 @@ dependencies:
   - perl-string-diff=0.07=pl5321hdfd78af_1
   - perl-sub-exporter=0.988=pl5321hdfd78af_0
   - perl-sub-exporter-progressive=0.001013=pl5321hdfd78af_1
-  - perl-sub-identify=0.14=pl5321hec16e2b_2
-  - perl-sub-install=0.928=pl5321hdfd78af_3
+  - perl-sub-identify=0.14=pl5321h166bdaf_0
+  - perl-sub-install=0.928=pl5321hd8ed1ab_0
   - perl-sub-name=0.21=pl5321hec16e2b_3
   - perl-sub-uplevel=0.2800=pl5321h166bdaf_0
   - perl-term-progressbar=2.22=pl5321hdfd78af_1
@@ -184,18 +185,18 @@ dependencies:
   - perl-xml-xpathengine=0.14=pl5321hdfd78af_3
   - perl-xsloader=0.24=pl5321hd8ed1ab_0
   - phast=1.5=hec16e2b_4
-  - pip=22.2.2=pyhd8ed1ab_0
+  - pip=22.3=pyhd8ed1ab_0
   - python=3.7.12=hb7a2778_100_cpython
   - readline=8.1.2=h0f457ee_0
-  - samtools=1.16.1=h6899075_0
+  - samtools=1.16.1=h6899075_1
   - seqkit=2.3.1=h9ee0642_0
-  - setuptools=65.4.1=pyhd8ed1ab_0
+  - setuptools=65.5.0=pyhd8ed1ab_0
   - sqlite=3.39.4=h4ff8645_0
   - t_coffee=11.0.8=py37hea885bf_8
   - tk=8.6.12=h27826a3_0
   - wget=1.20.3=ha56f1ee_1
   - wheel=0.37.1=pyhd8ed1ab_0
   - xz=5.2.6=h166bdaf_0
-  - zlib=1.2.12=h166bdaf_4
+  - zlib=1.2.13=h166bdaf_4
 prefix: /home/ad32a/conda/envs/conservatory-env
 
