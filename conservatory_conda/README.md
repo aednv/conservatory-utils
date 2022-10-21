@@ -1,3 +1,3 @@
 Conservatory conda environment
 
-current for conservatory version 10/14/22, tested with processGenomes
+current for conservatory version 10/21/22, tested with processGenomes, processConservation
